@@ -4,6 +4,9 @@
 # Machine-specific ComfyUI path saved by scripts/backup.sh
 .comfy-path
 
+# Personal Claude Code settings
+.claude/settings.local.json
+
 # Model weights: too big for git, track them in models/ manifests instead
 *.safetensors
 *.ckpt

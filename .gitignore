@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Machine-specific ComfyUI path saved by scripts/backup.sh
+.comfy-path
+
+# Model weights: too big for git, track them in models/ manifests instead
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+*.onnx
+*.sft
+
+# Generated outputs and temp files
+output/
+temp/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Logs and local databases
+*.log
+*.db
+*.db-*
+*.sqlite
